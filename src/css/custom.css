@@ -1,18 +1,69 @@
+body {
+  background-color: black;
+}
+
 .custom__img {
   width: 50px;
-  height: 45px;
+  height: 50px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .input__round {
   border-radius: 50px;
+  background-color: rgb(58, 59, 60);
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: all 0.2s;
+  padding-left: 20px !important;
+  cursor: pointer;
 }
-
+.input__round:hover {
+  background-color: hsl(0, 0%, 29%);
+}
 input:focus-visible {
   outline: none;
   border: none;
 }
 .custom__card__style {
   border: 0;
+}
+.svg__icon {
+  width: 30px;
+  height: 35px;
+}
+
+.custom__colum_hover:hover {
+  background-color: #3a3b3c;
+  border-radius: 10px;
+}
+
+.custon__Card__class {
+  background-color: #242526;
+  color: #fff;
+}
+.custom__outline {
+  outline: 2px solid #2e89ff;
+  outline-offset: 2px;
+  height: 40px;
+  width: 40px;
+}
+.globe__icon {
+  width: 13px;
+  height: 13px;
+  margin-top: -13px !important;
+}
+.dot__custom {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 25px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.dot__custom:hover {
+  background-color: #3a3b3c;
+}
+.post__text {
+  font-size: 17px;
 }
