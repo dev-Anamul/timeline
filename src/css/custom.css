@@ -1,0 +1,18 @@
+.custom__img {
+  width: 50px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.input__round {
+  border-radius: 50px;
+}
+
+input:focus-visible {
+  outline: none;
+  border: none;
+}
+.custom__card__style {
+  border: 0;
+}
