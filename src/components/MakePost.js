@@ -6,10 +6,10 @@ import PostCard from './PostCard';
 
 function MakePost() {
   return (
-    <div className="cotainer">
+    <div className="container">
       <div className="row">
-        <div className="col-md-4" />
-        <div className="col-md-4">
+        <div className="col-md-3" />
+        <div className="col-md-6">
           <div className="card mx-auto text-center mt-4 custom__card__style shadow p-2 custon__Card__class">
             <div className="card-body d-flex align-items-center ">
               <img
@@ -49,7 +49,7 @@ function MakePost() {
           </div>
           <PostCard />
         </div>
-        <div className="col-md-4" />
+        <div className="col-md-3" />
       </div>
     </div>
   );
