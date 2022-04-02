@@ -48,6 +48,11 @@ function MakePost() {
             </div>
           </div>
           <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
         </div>
         <div className="col-md-3" />
       </div>

@@ -12,8 +12,8 @@ if (process.env.NODE_ENV === 'production') {
   target = 'browserslist';
 }
 module.exports = {
-  mode: mode,
-  target: target,
+  mode,
+  target,
 
   entry: './src/index.js',
   output: {
